@@ -1,0 +1,147 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+#survey-form {
+  width: 100%;
+  max-width: 1920px;
+  background-color: white;
+  border: 1px solid;
+  overflow: hidden;
+}
+
+#survey-form .form-body {
+  padding: 20px;
+  border-top: 0.5px solid #eee;
+}
+
+#survey-form .form-body > h2,
+#survey-form .form-body > p {
+  text-align: center;
+}
+
+#survey-form > h1 {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+#survey-form > p {
+  margin-bottom: 10px;
+}
+
+#survey-form .row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#survey-form .form-group {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#survey-form .form-group .radio-group {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin: 10px;
+}
+
+#survey-form .form-group .radio-group .radio-item {
+  margin: 5px;
+}
+textarea {
+  height: 150px;
+  resize: none;
+  padding: 10px;
+}
+
+.top-label {
+  display: block;
+  font-weight: bold;
+}
+
+.bottom-label {
+  font-size: 0.8rem;
+}
+
+.align-end {
+  align-self: flex-end;
+}
+
+.table-row {
+  overflow-x: auto;
+}
+
+#survey-table {
+  display: block;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-top: 10px;
+}
+
+#survey-table th,
+#survey-table td {
+  text-align: center;
+  padding: 10px;
+  max-width: 120px;
+  border-collapse: collapse;
+}
+
+#survey-table .title-th {
+  text-align: left;
+  padding: 10px;
+  width: 30%;
+  min-width: 300px;
+  border-collapse: collapse;
+  background-color: gainsboro;
+}
+
+#survey-table thead th {
+  background-color: gainsboro;
+}
+
+#survey-table tbody th {
+  text-align: left;
+}
+
+#survey-form .form-footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#survey-form #submit-btn {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  background-color: navy;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#survey-form .form-footer {
+  border-top: 0.5px solid #eee;
+}
+
+#survey-form #submit-btn:hover {
+  background-color: rgb(0, 0, 86);
+}
